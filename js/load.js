@@ -8,10 +8,10 @@ $(document).ready(function() {
 
     if (windowWidth > windowHeight) {
       $('.overlay').attr('src', 'img/HackathonX.png').css('bottom', '-250px');
-      $('#about-row').css('margin-top', '250px');
+      // $('#about-row').css('margin-top', '250px');
     } else {
       $('.overlay').attr('src', 'img/HackathonY.png').css('bottom', '-2px');
-      $('#about-row').css('margin-top', '-2px');
+      // $('#about-row').css('margin-top', '-2px');
     }
   }
   checkRatio();
@@ -38,10 +38,10 @@ $(document).ready(function() {
   });
   $(window).scroll(function() {
     if ($(this).scrollTop() > 90) {
-      $('.navbar').css('background-color', '#fff');
+      $('.navbar').css({'background-color': '#fff', 'box-shadow': '0 1px 5px rgba(0, 0, 0, 0.65)'});
       $('a.scrolltop:hidden, a.scrolltop .fa').fadeIn();
     } else {
-      $('.navbar').css('background-color', 'transparent');
+      $('.navbar').css({'background-color': 'transparent', 'box-shadow': 'none'});
       $('a.scrolltop, a.scrolltop .fa').stop(false,false).fadeOut();
     }
     // currentScroll is the number of pixels the window has been scrolled

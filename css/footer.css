@@ -166,3 +166,7 @@ div.social-links a:hover {
     padding-right: 15px;
   }
 }
+
+.footer-navigation a {
+  display: inline;
+}

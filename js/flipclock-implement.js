@@ -18,7 +18,7 @@ $(document).ready(function() {
   //   play: 'play',
   //   wrapper: 'flip-clock-small-wrapper'
   // };
-  var countdown = 1514650620 - ((new Date().getTime())/1000); // from: 12/10/2017 08:01 pm +0100
+  var countdown = 1517922832 - ((new Date().getTime())/1000); // from: 12/10/2017 08:01 pm +0100
   countdown = Math.max(1, countdown);
   $('.clock').FlipClock(countdown, opts);
 

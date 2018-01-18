@@ -33,9 +33,6 @@ textarea.form-control:active {
   border: solid 0.5px #fff;
   outline: 0 none;
   transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-  /*background-image: linear-gradient(to bottom, #0d0d0d, #0d0d0d), linear-gradient(to bottom, #757575, #757575);
-  background-size: 100% 2px, 100% 1px;
-  background-position: 50% 100%, 50% 100%;*/
 }
 
 h2.text-danger.section-heading{
@@ -66,7 +63,6 @@ h2.text-danger.section-heading{
 
 .mail {
   background: #0d0d0d;
-  /*background: linear-gradient(120deg, rgba(13, 13, 13, 0.72) 40%, rgba(228, 2, 46, 0.7) 130%);*/
   padding: 20px 43px;
   border-radius:.25rem;
 }
