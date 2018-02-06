@@ -8,10 +8,10 @@ $(document).ready(function() {
 
     if (windowWidth > windowHeight) {
       $('.overlay').attr('src', 'img/HackathonX.png').css('bottom', '-250px');
-      // $('#about-row').css('margin-top', '250px');
+      $('#about-row').css('margin-top', '250px');
     } else {
       $('.overlay').attr('src', 'img/HackathonY.png').css('bottom', '-2px');
-      // $('#about-row').css('margin-top', '-2px');
+      $('#about-row').css('margin-top', '-2px');
     }
   }
   checkRatio();
